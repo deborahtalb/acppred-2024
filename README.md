@@ -16,4 +16,4 @@ $ make setup
 
 - `Makefile`: centralizes the commands for the program `make`.
 - `environment.yml`: defines the environment configurations and manages the dependencies.
-- `requirements`: contains a list of packages or libraries needed to run the program.
+- `requirements`: contains a list of packages or libraries needed to run the program.con
