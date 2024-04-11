@@ -6,5 +6,13 @@ setup(
     packages=find_packages(),
     author='Deborah Trota F. de Albernaz',
     author_email='trotadeborah@gmail.com', 
-    description='anticancer peptide prediction tool'
+    description='anticancer peptide prediction tool',
+    entry_points={
+        'console_scripts':[
+            'acppred-preprocess = acppred.preprocess:main',
+            'acppred-train = acppred.train:main',
+            'acppred-predict = acppred.predict:main'
+
+        ]
+    }
 )
